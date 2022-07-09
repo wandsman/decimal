@@ -5,6 +5,8 @@
 #ifndef C5_S21_DECIMAL_0_S21_DECIMAL_H
 #define C5_S21_DECIMAL_0_S21_DECIMAL_H
 
+#include "s21_decimal.h"
+#include <stdlib.h>
 
 typedef struct {
     int bits[4];
@@ -59,7 +61,6 @@ int s21_negate(s21_decimal value, s21_decimal *result);
 
 //======================================================
 
-#include "s21_decimal.h"
 
 
 #endif //C5_S21_DECIMAL_0_S21_DECIMAL_H
